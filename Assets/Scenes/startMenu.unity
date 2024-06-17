@@ -544,6 +544,109 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c1609da4b36da4a9bb6f667db3a653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1027421744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027421746}
+  - component: {fileID: 1027421745}
+  m_Layer: 0
+  m_Name: GlobalGameDataObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!114 &1027421745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027421744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e9638494a90ee4eaa77e615c0adf4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countries:
+  - flagname: singapore
+    flag: {fileID: 21300000, guid: 8e99b2f14a97e4d40a5c271e09843ddb, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: iran
+    flag: {fileID: 21300000, guid: 716829c76abc07849831dfa96c65e292, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: iraq
+    flag: {fileID: 21300000, guid: c54a606b2f4be9d418edf465fffe4a32, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: russia
+    flag: {fileID: 21300000, guid: 5b817339eb09bd341a2f9d6c428067bd, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: netherlands
+    flag: {fileID: 21300000, guid: fd9cf0e2e2b5e264b8450659af5157bf, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: china
+    flag: {fileID: 21300000, guid: cad9a95346abfce45a6eb8e4705f1a2d, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: england
+    flag: {fileID: 21300000, guid: 29184f8b335a79c488deac5d9c19efab, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: india
+    flag: {fileID: 21300000, guid: f72fcf5fd50c925478172c9eb49e7771, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: korea
+    flag: {fileID: 21300000, guid: 5ad0b43d2580d1840b61cd412aba2988, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: sudan
+    flag: {fileID: 21300000, guid: 1472f72523817c246b8b4d8167ec95d7, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: usa
+    flag: {fileID: 21300000, guid: b08b9ab82576759449e6e7cd8596ee2b, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: spain
+    flag: {fileID: 21300000, guid: 80768e5a890694147b63b6ef6d51eb55, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: france
+    flag: {fileID: 21300000, guid: 67e5c9cea6184a34b8f1b86759c825e5, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  - flagname: brazil
+    flag: {fileID: 21300000, guid: f690057b27f724b4c9318bc3999148db, type: 3}
+    guess: 0
+    beenQuestioned: 0
+  countrySetPerGame: []
+  countryDataSet: []
+--- !u!4 &1027421746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027421744}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1513978279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,3 +1510,4 @@ SceneRoots:
   - {fileID: 151249463}
   - {fileID: 481449142}
   - {fileID: 1753001965}
+  - {fileID: 1027421746}
