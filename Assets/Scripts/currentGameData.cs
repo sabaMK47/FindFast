@@ -93,6 +93,10 @@ public class currentGameData : MonoBehaviour
 
     }
 
+    public string getFlagName(int index){
+        return GameData.instance.countrySetPerGame[index].flagname;
+    }
+
     public int GetFirstFlagIndex(){
         return firstFlagIndex;
     }
