@@ -416,11 +416,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalScale.z
@@ -428,11 +428,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.95
+      value: -9.8
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.93
+      value: 5.39
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalPosition.z
@@ -822,8 +822,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 112
-  m_fontSizeBase: 112
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -950,11 +950,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalScale.z
@@ -962,11 +962,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.98
+      value: 5.35
       objectReference: {fileID: 0}
     - target: {fileID: 2360703485077861373, guid: d5fdaf9cd9aa3054382305ecadf3d177, type: 3}
       propertyPath: m_LocalPosition.z
